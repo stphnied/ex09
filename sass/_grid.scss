@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1140px;
+
+    h2 {
+        border: 1px solid red;
+    }
+}
+
+.conference {
+    display: flex;
+
+    img {
+        margin-right: 1rem;
+        width: 15rem;
+    }
+}
+
+.evenement {
+    display: flex;
+
+    li {
+        list-style: none;
+    }
+}
